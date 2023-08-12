@@ -18,3 +18,7 @@ Display.defaultProps = {
 };
 
 export default Display
+
+// you can make a prop required --> children: PropTypes.element.isRequired
+// Typescript is "better", but technically they have differnet use cases
+// --> Typescript checks at compile time, propTypes checks at run time
